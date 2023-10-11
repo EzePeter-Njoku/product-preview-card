@@ -1,9 +1,17 @@
 body { 
-    width: fit-content;
-    height: auto;
-    border-radius: 4px;
-    border: 1px  #ededef;
-    padding:10px 10px 5px;
+    width: 100rem;
+    height: 100%;
+    margin: auto auto;
+    padding-top: 10rem;
+    padding-left: auto;
+    border-radius: 4rem;
+    border: 3px  #ededef;
+    display: flex;
+    background-color: linear-gradient(#4ef345,#eff9ef);
+
+}
+
+html {
 
 }
 h1 {
@@ -26,30 +34,33 @@ font-family: inherit;
 font-size: xx-large;
 
 }
-
-main {
+ .i {
     display: flex;
     flex-direction: row;
     align-content: center;
     justify-content: center;
-    background-color:  rgb(221, 248, 232);
+    background-color: rgb(176, 253, 212);
 }
 .image-container{
     max-width: 100%;
+
     
 }
  button {
     text-align: center;
     background-color: rgb(3, 149, 149);
     color: rgb(245, 242, 242);
-    cursor: pointer;
-    border-radius: 5px;
-    font-size: 50px;
+    cursor: pointer; 
+    font-size: 2rem;
+    border-radius: 3px solid black;
+    margin: 0 auto;
+    font-weight: bold;
  }
 button:hover{
-    color: rgb(20, 20, 20);
+    color: rgb(31, 29, 29);
+    text-transform: capitalize;
 }
 .price {
-    color: rgb(7, 118, 118);
-    font-size: 50px;
+    color: rgb(27, 151, 51);
+    font-size: 65px;
 }
